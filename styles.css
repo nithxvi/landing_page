@@ -47,6 +47,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 
@@ -81,12 +82,16 @@ button{
     color: antiquewhite;
     border-radius: 8px;
     height: 30px;
-    width: 100px;
+    width: 150px;
     margin-top: 20px;
     font-weight: 700;
     text-decoration: none;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
 
-    
+.col button{
+    border-style: none;
 }
 
 .fle{
@@ -136,4 +141,27 @@ button{
     margin-right: 48px ;
 }
 
+.blu{
+    background-color: #3882F6;
+    margin: 80px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    color: antiquewhite;
+    margin: 20px;
+    margin-left: 48px;
+}
+
+.blu button{
+    margin: 48px;
+    
+}
+
+#call{
+    font-weight: bold;
+    font-size: 18px;
+}
 
