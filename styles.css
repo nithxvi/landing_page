@@ -42,8 +42,11 @@ h1{
 
 .footer{
     background-color: #1F2937;
-    text-align: center;
     color: antiquewhite;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -78,10 +81,11 @@ button{
     color: antiquewhite;
     border-radius: 8px;
     height: 30px;
-    width: 80px;
-    margin-top: 10px;
+    width: 100px;
+    margin-top: 20px;
     font-weight: 700;
     text-decoration: none;
+
     
 }
 
@@ -95,6 +99,7 @@ button{
 .second{
     display: flex;
     flex-direction: column;
+    margin: 30px;
     
 }
 
@@ -109,3 +114,26 @@ button{
 .idim{
     text-align: center;
 }
+
+.sec{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#qoute{
+   font-size: 36px;
+   font-style: italic; 
+   margin: 48px;
+   font-weight: 300;
+}
+
+#by{
+    font-weight: bold;
+    text-align: end;
+    margin-right: 48px ;
+}
+
+
