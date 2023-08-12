@@ -13,13 +13,13 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    color: antiquewhite;
+    color: white;
     margin: 48px;
 }
 
 a{
     text-decoration: none;
-    color: antiquewhite;
+    color: white;
     font-size: 18px;
     padding: 5px;
 }
@@ -42,7 +42,7 @@ h1{
 
 .footer{
     background-color: #1F2937;
-    color: antiquewhite;
+    color: white;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -68,7 +68,7 @@ h1{
 .col{
     display: flex;
     flex-direction: column;
-    color: antiquewhite;
+    color: white;
 }
 
 #rig{
@@ -79,7 +79,7 @@ h1{
 
 button{
     background-color: #3882F6;
-    color: antiquewhite;
+    color: white;
     border-radius: 8px;
     height: 30px;
     width: 150px;
@@ -129,7 +129,7 @@ button{
 
 
 #qoute{
-   font-size: 36px;
+   font-size: 30px;
    font-style: italic; 
    margin: 48px;
    font-weight: 300;
@@ -150,7 +150,7 @@ button{
 }
 
 .text{
-    color: antiquewhite;
+    color: white;
     margin: 20px;
     margin-left: 48px;
 }
